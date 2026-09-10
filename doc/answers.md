@@ -17,4 +17,14 @@ test
 결과:Aa 켰을때:0 ,Aa 껐을때:2 ab켰을때,껐을때:2 터미널:0
 다를 거라고 생각했다 alice가 맨 앞에 나오거나 이름으로 표시되면 대문자 A를 쓰고 나머지는 소문자를 쓸 테니까 결과적으로는 대문자로 쓰인 엘리스가 없었는지 Aa를 켰을때와 껐을때의 결과값이 0과 2로 차이가 났다
 
-2-4.소스제어
+2-4.소스제어는 터미널 없이 commit할 수 있게 해준다 소스 제어 아이콘의 수는 커밋되어지지 않은 변경사항의 개수를 의미하는데 스페이스를 몇번 쳐서 그런지3이 나왔다 타자가 더 느려 터미널로 커밋하는것보다 소스제어로 commit하고 푸쉬하는 게 더 빠른것 같았다
+결과:@kimjiye0978 ➜ /workspaces/bioinfolab-20241397 (main) $ git log -1
+commit dc5a5cb3d397f34a41036c2ff8429a9275d27db5 (HEAD -> main, origin/main, origin/HEAD)
+Author: Kim Jiye <20241397@sungshin.ac.kr>
+Date:   Thu Sep 10 15:21:32 2026 +0000
+
+    update
+
+2-5.확장은 추가 프로그램들을 설치 할 수있는 곳이다
+python 2026.4.0 jupyter 2025.9.1
+".devcontainer"의 설정 파일에서 "extensions" 항목에 "ms-python.python"과 "ms-toolsai.jupyter"가 지정되어 있는 것을 확인했습니다. 따라서 Python과 Jupyter 확장은 제가 직접 설치한 것이 아니라 교수님이 미리 설정해 두신 것같습니다.
