@@ -1,0 +1,124 @@
+    1  readme
+    2  mkdir -p prob03/A/B prob03/A/C/D prob03/E/F/G prob03
+    3  mkdir prob03/H
+    4  ls -R prob03
+    5  ls -R prob03 > prob03.txt
+    6  cat prob03.txt
+    7  cd $MYHOME
+    8  pwd
+    9  cd $MYHOME/prob03/..
+   10  ls
+   11  cd $MYHOME
+   12  pwd
+   13  ls
+   14  ls 
+   15  pwd
+   16  cd cd $MYHOME/prob03/../../../..
+   17  cd $MYHOME/prob03
+   18  cd ../../../..
+   19  pwd
+   20  cd ../
+   21  pwd
+   22  ls
+   23  MYHOME=$(pwd)
+   24  cd $MYHOME/prob03/..
+   25  cd $MYHOME/prob03
+   26  pwd
+   27  clear
+   28  cd $MYHOME
+   29  cd $MYHOME/prob03/..
+   30  echo $MYHOME
+   31  echo $HOME
+   32  export MYHOME=$HOME
+   33  export MYHOME=/workspaces/$(ls /workspaces)
+   34  export MYHOME=$HOME
+   35  cd $MYHOME
+   36  pwd
+   37  ls
+   38  echo $HOME
+   39  export MYHOME=$HOME
+   40  cd $MYHOME
+   41  ㅔㅈㅇ
+   42  pwd
+   43  export MYHOME=/home/vscode
+   44  mkdir -p prob03/A/B prob03/A/C/D prob03/E/F/G prob03/H
+   45  ls
+   46  cd $MYHOME
+   47  pwd
+   48  cd $MYHOME = cd /home/vscode
+   49  ㅣㄴ
+   50  ls
+   51  pwd
+   52  cd prob03/A/C/D
+   53  pwd
+   54  cd ../../../../E/F/G
+   55  cd ../../../../
+   56  pwd
+   57  cd $MYHOME
+   58  pwd
+   59  cd $MYHOME/prob03
+   60  MYHOME=$(/workspaces/bioinfolab-20241397)
+   61  cd $MYHOME/prob03
+   62  MYHOME=$(workspaces/bioinfolab-20241397)
+   63  MYHOME=$(pwd)
+   64  cd $MYHOME
+   65  cd $MYHOME/prob03
+   66  pwd
+   67  ls
+   68  cd prob03/A/C/D
+   69  pwd
+   70  export MYHOME=/workspaces/bioinfolab-20241397
+   71  cd $MYHOME
+   72  pwd
+   73  ls
+   74  cd prob03/A/C/D
+   75  pwd
+   76  cd ../../../../prob03/E/F/G
+   77  pwd
+   78  cd $MYHOME
+   79  pwd
+   80  cd -
+   81  pwd
+   82  ls -lS lab03/data
+   83  cd lab03
+   84  cd $MYHOME
+   85  cd lab03
+   86  ls -lS lab03/data
+   87  cd /workspaces/bioinfolab-20241397
+   88  ls -lS lab03/data
+   89  ls --help
+   90  ls -t
+   91  ls -r
+   92  ls -S
+   93  ls -1
+   94  ls -lS lab03/data
+   95  cd /workspaces/bioinfolab-20241397
+   96  ls -R lab03
+   97  ls lab03/X
+   98  cd lab03
+   99  ls lab03/X
+  100  rm -r lab03/X
+  101  ls lab03/X
+  102  ls X
+  103  ls lab03
+  104  ls -R lab03
+  105  pwd
+  106  find /workspaces -name "lab03" -type d 2>/dev/null
+  107  cd /workspaces/bioinfolab-20241397
+  108  ls -R lab03
+  109  ls lab03/X
+  110  rm -r lab03/X
+  111  ls lab03/src
+  112  rm -r lab03/src
+  113  rm -r lab03/data/old
+  114  cat > lab03/doc/README << 'EOF'
+이 폴더는 bioinformatics lab03 실습 폴더입니다.
+data/ 폴더에는 실습에 사용한 데이터 파일이 들어 있습니다.
+파일 목록: 11-0.txt, alice.txt, check_result.txt, prob03.txt
+doc/ 폴더에는 README와 실습 답안(answers.md) 문서가 들어 있습니다.
+EOF
+
+  115  cat lab03/doc/README
+  116  ls -R lab03
+  117  history
+  118  history > history.txt

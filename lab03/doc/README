@@ -1,2 +1,4 @@
-생물정보학실험 lab03
-두 번째 줄
+이 폴더는 bioinformatics lab03 실습 폴더입니다.
+data/ 폴더에는 실습에 사용한 데이터 파일이 들어 있습니다.
+파일 목록: 11-0.txt, alice.txt, check_result.txt, prob03.txt
+doc/ 폴더에는 README와 실습 답안(answers.md) 문서가 들어 있습니다.
